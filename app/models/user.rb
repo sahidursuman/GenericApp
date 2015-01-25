@@ -5,4 +5,8 @@ class User < ActiveRecord::Base
   has_many :crops, through: :crops_users
 
   has_one :profile_picture, as: :imageable, class_name: 'Image'
+
+  def to_s
+    self.full_name
+  end
 end

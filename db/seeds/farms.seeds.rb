@@ -1,3 +1,3 @@
 puts 'Adding Farms:'
 
-Seeds.add_farm name: 'McCain'
+Seeds.add Farm, name: 'McCain'
