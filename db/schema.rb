@@ -11,10 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150120195812) do
+ActiveRecord::Schema.define(version: 20150726123532) do
 
   create_table "crops", force: :cascade do |t|
-    t.string   "type"
+    t.string   "name"
     t.date     "planted_on"
     t.date     "harvested_on"
     t.integer  "yield"
